@@ -15,10 +15,19 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Corpo"
+        android:hint="Subject"
         android:layout_margin="8dp"
-        android:id="@+id/activity_main_corpo"
+        android:id="@+id/activity_main_subject"
         android:inputType="textCapWords"/>
+
+    <EditText
+        android:id="@+id/activity_main_corpo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Corpo"
+        android:lines="10"
+        android:gravity="start"
+        android:layout_margin="8dp" />
    <Button
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
